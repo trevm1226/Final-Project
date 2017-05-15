@@ -5,7 +5,7 @@ public class mainScreen extends World {
 	Player player;
 	//Girlscout
 	Timer girlT;
-	GirlScout girl;
+	InvestmentActor girl;
 	bar Gbar1;
 	bar Gbar2;
 	bar Gbar3;
@@ -19,23 +19,23 @@ public class mainScreen extends World {
 	
 	//donut
 	Timer donutT;
-	Donut donut;
+	InvestmentActor donut;
 	
 	//mcD
 	Timer mcDT;
-	McDonalds mcD;
+	InvestmentActor mcD;
 	
 	//CNN
 	Timer fakeTimer;
-	CNN fakeNews;
+	InvestmentActor fakeNews;
 		
 	//cowboys
 	Timer cowT;
-	Cowboys cb;
+	InvestmentActor cb;
 		
 	//United
 	Timer unitedT;
-	United doctorBeater;
+	InvestmentActor doctorBeater;
 
 	
 	public mainScreen(){
@@ -83,75 +83,21 @@ public class mainScreen extends World {
 	public void act() {
 		
 		//Girlscout
-		boolean boolg = false;
-		if(girl.isClicked()){
-			girlT.set(2000);
-			boolg = true;
-		}
-		if(girlT.isDone() && boolg == true)
-		{
-			boolg = false;
-			player.moreMoney(girl.getValue());
-		}
+		girl.clicked(girlT, player);
 		
 		//Donut
-		boolean boold = false;
-		if(donut.isClicked()){
-			donutT.set(5000);
-			boold = true;
-		}
-		if(donutT.isDone() && boold == true)
-		{
-			boold = false;
-			player.moreMoney(donut.getValue());
-		}
+		donut.clicked(donutT, player);
 		
 		//McDonalds
-		boolean boolm = false;
-		if(mcD.isClicked()){
-			mcDT.set(7500);
-			boolm = true;
-		}
-		if(mcDT.isDone() && boolm == true)
-		{
-			boolm = false;
-			player.moreMoney(mcD.getValue());
-		}
+		mcD.clicked(mcDT, player);
 		
 		//CNN
-		boolean boolc = false;
-		if(fakeNews.isClicked()){
-			fakeTimer.set(10000);
-			boolc = true;
-		}
-		if(fakeTimer.isDone() && boolc == true)
-		{
-			boolc = false;
-			player.moreMoney(fakeNews.getValue());
-		}
+		fakeNews.clicked(fakeTimer, player);
 		
 		//Cowboys
-		boolean boolb = false;
-		if(cb.isClicked()){
-			cowT.set(15000);
-			boolb = true;
-		}
-		if(cowT.isDone() && boolb == true)
-		{
-			boolb = false;
-			player.moreMoney(cb.getValue());
-		}
+		cb.clicked(cowT, player);
 		
 		//United
-		boolean boolu = false;
-		if( doctorBeater.isClicked()){
-			unitedT.set(30000);
-			boolu = true;
-		}
-		if(unitedT.isDone() && boolu == true)
-		{
-			boolu = false;
-			player.moreMoney(doctorBeater.getValue());
-		}
+		doctorBeater.clicked(unitedT, player);
 	}
 }

@@ -1,9 +1,10 @@
 import mayflower.*;
 public class loadBar extends Actor{
 
-	
-	public loadBar()
+	Timer time;
+	public loadBar(Timer t)
 	{
+		time = t;
 		setImage("img/LoadBarFinal.gif");
 		
 	}
