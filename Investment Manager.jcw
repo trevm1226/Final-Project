@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>Investment Manager</label>
+	</settings>
+	<users>
+		<user>
+			<path>Investment Manager.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>Investment Manager.jcp</path>
+		</project>
+	</projects>
+</workspace>

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+	<settings>
+		<label>Investment Manager</label>
+		<root_path>\</root_path>
+		<output_path>\</output_path>
+		<source_path>src\</source_path>
+		<jdkprofile_ref>JDK version 1.8.0_25</jdkprofile_ref>
+		<compiler_ref>&lt;Default&gt;</compiler_ref>
+		<ant_ref/>
+	</settings>
+	<ant_events/>
+	<run_items>
+		<item run="Runner"/>
+	</run_items>
+	<runtimes>
+		<runtime>
+			<label>&lt;Default&gt;</label>
+			<application_ref/>
+			<applet_ref/>
+			<debugger_ref/>
+			<param/>
+			<run>Runner</run>
+			<verify>true</verify>
+		</runtime>
+	</runtimes>
+	<libraries>
+		<library_ref>Mayflower</library_ref>
+	</libraries>
+	<files>
+		<include>
+			<folderitem>
+				<path>bin</path>
+			</folderitem>
+			<folderitem>
+				<path>src (1)</path>
+			</folderitem>
+			<fileitem>
+				<path>bin\mayflower2.1.jar</path>
+				<folder>bin</folder>
+			</fileitem>
+			<fileitem>
+				<path>src (1)\bar.java</path>
+				<folder>src (1)</folder>
+			</fileitem>
+			<fileitem>
+				<path>src (1)\CNN.java</path>
+				<folder>src (1)</folder>
+			</fileitem>
+			<fileitem>
+				<path>src (1)\Cowboys.java</path>
+				<folder>src (1)</folder>
+			</fileitem>
+			<fileitem>
+				<path>src (1)\Donut.java</path>
+				<folder>src (1)</folder>
+			</fileitem>
+			<fileitem>
+				<path>src (1)\endScreen.java</path>
+				<folder>src (1)</folder>
+			</fileitem>
+			<fileitem>
+				<path>src (1)\GirlScout.java</path>
+				<folder>src (1)</folder>
+			</fileitem>
+			<fileitem>
+				<path>src (1)\Investments.java</path>
+				<folder>src (1)</folder>
+			</fileitem>
+			<fileitem>
+				<path>src (1)\loadBar.java</path>
+				<folder>src (1)</folder>
+			</fileitem>
+			<fileitem>
+				<path>src (1)\mainScreen.java</path>
+				<folder>src (1)</folder>
+			</fileitem>
+			<fileitem>
+				<path>src (1)\McDonalds.java</path>
+				<folder>src (1)</folder>
+			</fileitem>
+			<fileitem>
+				<path>src (1)\MoneyLabel.java</path>
+				<folder>src (1)</folder>
+			</fileitem>
+			<fileitem>
+				<path>src (1)\Player.java</path>
+				<folder>src (1)</folder>
+			</fileitem>
+			<fileitem>
+				<path>src (1)\restartButton.java</path>
+				<folder>src (1)</folder>
+			</fileitem>
+			<fileitem>
+				<path>src (1)\Runner.java</path>
+				<folder>src (1)</folder>
+			</fileitem>
+			<fileitem>
+				<path>src (1)\startButton.java</path>
+				<folder>src (1)</folder>
+			</fileitem>
+			<fileitem>
+				<path>src (1)\startScreen.java</path>
+				<folder>src (1)</folder>
+			</fileitem>
+			<fileitem>
+				<path>src (1)\title.java</path>
+				<folder>src (1)</folder>
+			</fileitem>
+			<fileitem>
+				<path>src (1)\United.java</path>
+				<folder>src (1)</folder>
+			</fileitem>
+		</include>
+	</files>
+	<tasks>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\CNN.java</filepath>
+			<line>24</line>
+			<timestamp>1494345041</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\CNN.java</filepath>
+			<line>30</line>
+			<timestamp>1494345041</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\CNN.java</filepath>
+			<line>36</line>
+			<timestamp>1494345041</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\CNN.java</filepath>
+			<line>42</line>
+			<timestamp>1494345041</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\CNN.java</filepath>
+			<line>49</line>
+			<timestamp>1494345041</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\CNN.java</filepath>
+			<line>57</line>
+			<timestamp>1494345041</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\Cowboys.java</filepath>
+			<line>24</line>
+			<timestamp>1494345041</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\Cowboys.java</filepath>
+			<line>30</line>
+			<timestamp>1494345041</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\Cowboys.java</filepath>
+			<line>36</line>
+			<timestamp>1494345041</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\Cowboys.java</filepath>
+			<line>42</line>
+			<timestamp>1494345041</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\Cowboys.java</filepath>
+			<line>49</line>
+			<timestamp>1494345041</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\Cowboys.java</filepath>
+			<line>57</line>
+			<timestamp>1494345041</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\Donut.java</filepath>
+			<line>24</line>
+			<timestamp>1494345041</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\Donut.java</filepath>
+			<line>30</line>
+			<timestamp>1494345041</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\Donut.java</filepath>
+			<line>36</line>
+			<timestamp>1494345041</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\Donut.java</filepath>
+			<line>42</line>
+			<timestamp>1494345041</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\Donut.java</filepath>
+			<line>49</line>
+			<timestamp>1494345041</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\Donut.java</filepath>
+			<line>57</line>
+			<timestamp>1494345041</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\McDonalds.java</filepath>
+			<line>24</line>
+			<timestamp>1494345041</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\McDonalds.java</filepath>
+			<line>30</line>
+			<timestamp>1494345041</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\McDonalds.java</filepath>
+			<line>36</line>
+			<timestamp>1494345041</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\McDonalds.java</filepath>
+			<line>42</line>
+			<timestamp>1494345041</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\McDonalds.java</filepath>
+			<line>49</line>
+			<timestamp>1494345041</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\McDonalds.java</filepath>
+			<line>57</line>
+			<timestamp>1494345041</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\United.java</filepath>
+			<line>24</line>
+			<timestamp>1494345042</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\United.java</filepath>
+			<line>30</line>
+			<timestamp>1494345042</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\United.java</filepath>
+			<line>36</line>
+			<timestamp>1494345042</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\United.java</filepath>
+			<line>42</line>
+			<timestamp>1494345042</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\United.java</filepath>
+			<line>49</line>
+			<timestamp>1494345042</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\United.java</filepath>
+			<line>57</line>
+			<timestamp>1494345042</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\title.java</filepath>
+			<line>15</line>
+			<timestamp>1494345926</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\startScreen.java</filepath>
+			<line>18</line>
+			<timestamp>1494345967</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\GirlScout.java</filepath>
+			<line>24</line>
+			<timestamp>1494348215</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\GirlScout.java</filepath>
+			<line>30</line>
+			<timestamp>1494348215</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\GirlScout.java</filepath>
+			<line>36</line>
+			<timestamp>1494348215</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\GirlScout.java</filepath>
+			<line>42</line>
+			<timestamp>1494348215</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\GirlScout.java</filepath>
+			<line>49</line>
+			<timestamp>1494348215</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\GirlScout.java</filepath>
+			<line>57</line>
+			<timestamp>1494348215</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\bar.java</filepath>
+			<line>15</line>
+			<timestamp>1494348476</timestamp>
+		</todotaskitem>
+		<todotaskitem>
+			<description>TODO Auto-generated method stub</description>
+			<filepath>src (1)\loadBar.java</filepath>
+			<line>15</line>
+			<timestamp>1494349099</timestamp>
+		</todotaskitem>
+	</tasks>
+</project>

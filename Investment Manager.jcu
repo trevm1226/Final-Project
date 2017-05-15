@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace_user>
+	<active_project>
+		<label>Investment Manager</label>
+	</active_project>
+	<projects>
+		<project>
+			<label>Investment Manager</label>
+			<showfiles>false</showfiles>
+			<folderitem>
+				<path>bin</path>
+			</folderitem>
+			<folderitem>
+				<path>src (1)</path>
+			</folderitem>
+		</project>
+	</projects>
+	<open_files>
+		<docitem>
+			<path>src (1)\CNN.java</path>
+			<source>true</source>
+			<index>0</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>src (1)\Cowboys.java</path>
+			<source>true</source>
+			<index>1</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>src (1)\Donut.java</path>
+			<source>true</source>
+			<index>2</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>src (1)\GirlScout.java</path>
+			<source>true</source>
+			<index>3</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>src (1)\Investments.java</path>
+			<source>true</source>
+			<index>4</index>
+			<active>true</active>
+		</docitem>
+		<docitem>
+			<path>src (1)\McDonalds.java</path>
+			<source>true</source>
+			<index>5</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>src (1)\MoneyLabel.java</path>
+			<source>true</source>
+			<index>6</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>src (1)\Player.java</path>
+			<source>true</source>
+			<index>7</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>src (1)\Runner.java</path>
+			<source>true</source>
+			<index>8</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>src (1)\United.java</path>
+			<source>true</source>
+			<index>9</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>src (1)\endScreen.java</path>
+			<source>true</source>
+			<index>10</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>src (1)\mainScreen.java</path>
+			<source>true</source>
+			<index>11</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>src (1)\restartButton.java</path>
+			<source>true</source>
+			<index>12</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>src (1)\startButton.java</path>
+			<source>true</source>
+			<index>13</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>src (1)\startScreen.java</path>
+			<source>true</source>
+			<index>14</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>src (1)\title.java</path>
+			<source>true</source>
+			<index>15</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>src (1)\bar.java</path>
+			<source>true</source>
+			<index>16</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>src (1)\loadBar.java</path>
+			<source>true</source>
+			<index>17</index>
+			<active>false</active>
+		</docitem>
+	</open_files>
+</workspace_user>
