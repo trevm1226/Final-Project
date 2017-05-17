@@ -6,10 +6,10 @@ public class United extends InvestmentActor{
 
 	public United(){
 		setImage("img/United.png");
-		super.setCost(1000);
-		super.setValue(666.6);
-		super.setTime(15000);
-		super.setUpgrades(1500.0);
+		super.setCost(150000);
+		super.setValue(80000.0);
+		super.setTime(30000);
+		super.setUpgrades(150000.0);
 	}
 	@Override
 	public void setCost(int value) {

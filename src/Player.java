@@ -12,7 +12,7 @@ public class Player extends Actor{
 	}
 	public void moreMoney(Double amount)
 	{
-		money += amount;
+		money += (amount* 100.0)/100.0;
 	}
 	@Override
 	public void act() {

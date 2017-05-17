@@ -6,10 +6,10 @@ public class Cowboys extends InvestmentActor{
 	
 	public Cowboys(){
 		setImage("img/dallas-cowboys.png");
-		super.setCost(1000);
-		super.setValue(666.6);
-		super.setTime(15000);
-		super.setUpgrades(1500.0);
+		super.setCost(15000);
+		super.setValue(8000.0);
+		super.setTime(20000);
+		super.setUpgrades(15000.0);
 	}
 	@Override
 	public void setCost(int value) {

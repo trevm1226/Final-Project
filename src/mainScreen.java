@@ -38,7 +38,7 @@ public class mainScreen extends World {
 		girlT = new Timer();
 		girl = new GirlScout();
 		
-		Gbar1 = new loadBar(girlT);
+		Gbar1 = new loadBar(girlT, girl.getTime());
 		addObject(girl, 50, 100);
 		
 		addObject(Gbar1,175,110);
@@ -47,35 +47,35 @@ public class mainScreen extends World {
 		donutT = new Timer();
 		donut = new Donut();
 		addObject(donut, 50, 175);
-		Dbar1 = new loadBar(donutT);
+		Dbar1 = new loadBar(donutT, donut.getTime());
 		addObject(Dbar1, 175, 185);
 		
 		//McDonalds
 		mcDT = new Timer();
 		mcD = new McDonalds();
 		addObject(mcD, 50, 300);
-		Mbar1 = new loadBar(mcDT);
+		Mbar1 = new loadBar(mcDT, mcD.getTime());
 		addObject(Mbar1, 175, 310);
 		
 		//CNN
 		fakeTimer = new Timer();
 		fakeNews = new CNN();
 		addObject(fakeNews, 50, 425);
-		Fbar1 = new loadBar(fakeTimer);
+		Fbar1 = new loadBar(fakeTimer, fakeNews.getTime());
 		addObject(Fbar1, 175, 435);
 		
 		//Cowboys
 		cowT = new Timer();
 		cb = new Cowboys();
 		addObject(cb, 50, 525);
-		Cbar1 = new loadBar(cowT);
+		Cbar1 = new loadBar(cowT, cb.getTime());
 		addObject(Cbar1, 175, 535);
 		
 		//United
 		unitedT = new Timer();
 		doctorBeater = new United();
 		addObject(doctorBeater, 0, 575);
-		Ubar1 = new loadBar(unitedT);
+		Ubar1 = new loadBar(unitedT, doctorBeater.getTime());
 		addObject(Ubar1, 175, 650);
 		
 		MoneyLabel money = new MoneyLabel(player);
@@ -85,21 +85,59 @@ public class mainScreen extends World {
 	public void act() {
 		
 		//Girlscout
-		girl.clicked(girlT, player);
+		if (girl.isClicked()){
+			girl.clicked(girlT, player);
+			Gbar1.act();
+		}
+			
+	
+
+		if(girlT.isDone() && girl.running == true)
+		{
+			girl.running = false;
+			player.moreMoney(girl.getValue());
+			Gbar1.i = 1;
+			Gbar1.target = new Long(Gbar1.init - (Gbar1.init/10));
+		}
 		
 		//Donut
-		donut.clicked(donutT, player);
+		if (donut.isClicked()) donut.clicked(donutT, player);
+		if(donutT.isDone() && donut.running == true)
+		{
+			donut.running = false;
+			player.moreMoney(donut.getValue());
+		}
 		
 		//McDonalds
-		mcD.clicked(mcDT, player);
+		if (mcD.isClicked()) mcD.clicked(mcDT, player);
+		if(mcDT.isDone() && mcD.running == true)
+		{
+			mcD.running = false;
+			player.moreMoney(mcD.getValue());
+		}
 		
 		//CNN
-		fakeNews.clicked(fakeTimer, player);
+		if (fakeNews.isClicked()) fakeNews.clicked(fakeTimer, player);
+		if(fakeTimer.isDone() && fakeNews.running == true)
+		{
+			fakeNews.running = false;
+			player.moreMoney(fakeNews.getValue());
+		}
 		
 		//Cowboys
-		cb.clicked(cowT, player);
+		if (cb.isClicked()) cb.clicked(cowT, player);
+		if(cowT.isDone() && cb.running == true)
+		{
+			cb.running = false;
+			player.moreMoney(cb.getValue());
+		}
 		
 		//United
-		doctorBeater.clicked(unitedT, player);
+		if (doctorBeater.isClicked()) doctorBeater.clicked(unitedT, player);
+		if(unitedT.isDone() && doctorBeater.running == true)
+		{
+			doctorBeater.running = false;
+			player.moreMoney(doctorBeater.getValue());
+		}
 	}
 }

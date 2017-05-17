@@ -11,6 +11,7 @@ public class InvestmentActor extends Actor implements Investments{
 	Double investmentValue;
 	Queue<Double> upgrades;
 	int time;
+	public boolean running;
 	
 	public int getTime()
 	{
@@ -84,16 +85,9 @@ public class InvestmentActor extends Actor implements Investments{
 	
 	public void clicked(Timer t, Player p)
 	{
-		boolean boolg = false;
-		if(this.isClicked()){
 			t.set(time);
-			boolg = true;
-		}
-		if(t.isDone() && boolg == true)
-		{
-			boolg = false;
-			p.moreMoney(this.getValue());
-		}
+			running = true;
+		
 	}
 
 }

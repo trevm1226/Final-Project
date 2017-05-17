@@ -6,10 +6,10 @@ public class Donut extends InvestmentActor{
 
 	public Donut(){
 		setImage("img/donut.png");
-		super.setCost(1000);
-		super.setValue(666.6);
-		super.setTime(15000);
-		super.setUpgrades(1500.0);
+		super.setCost(15);
+		super.setValue(5.0);
+		super.setTime(5000);
+		super.setUpgrades(15.0);
 	}
 	@Override
 	public void setCost(int value) {

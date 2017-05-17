@@ -6,11 +6,10 @@ public class McDonalds extends InvestmentActor{
 
 	public McDonalds(){
 		setImage("img/mcD.png");
-		Double temp = 1500.0;
-		super.setCost(1000);
-		super.setValue(666.6);
-		super.setTime(15000);
-		super.setUpgrades(1500.0);
+		super.setCost(150);
+		super.setValue(75.0);
+		super.setTime(10000);
+		super.setUpgrades(150.0);
 	}
 	@Override
 	public void setCost(int value) {

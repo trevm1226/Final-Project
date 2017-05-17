@@ -6,10 +6,10 @@ public class GirlScout extends InvestmentActor{
 
 	public GirlScout(){
 		setImage("img/girlscout.png");
-		super.setCost(1000);
-		super.setValue(666.6);
-		super.setTime(15000);
-		super.setUpgrades(1500.0);
+		super.setCost(2);
+		super.setValue(1.0);
+		super.setTime(2000);
+		super.setUpgrades(2.0);
 	}
 	@Override
 	public void setCost(int value) {
