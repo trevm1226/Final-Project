@@ -81,6 +81,7 @@ public class InvestmentActor extends Actor implements Investments{
 		// TODO Auto-generated method stub
 	}
 	
+	
 	public void clicked(Timer t, Player p)
 	{
 		boolean boolg = false;
