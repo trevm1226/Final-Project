@@ -42,7 +42,7 @@ public class InvestmentActor extends Actor implements Investments{
 		upgrades = new LinkedList<Double>();
 		Double temp = start;
 		upgrades.add(temp);
-		for(int i = 1; i < 101; i++)
+		for(int i = 1; i < 1000; i++)
 		{
 			temp *= 1.1;
 			upgrades.add(temp);
@@ -63,7 +63,7 @@ public class InvestmentActor extends Actor implements Investments{
 	@Override
 	public void upgrade() {
 		// TODO Auto-generated method stub
-		investmentValue *= 1.5;
+		investmentValue *= 1.05;
 		investmentValue = (investmentValue * 100.0)/100.0;
 		upgrades.remove();
 	}

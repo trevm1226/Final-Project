@@ -4,7 +4,7 @@ public class restartButton extends Actor{
 
 	public restartButton()
 	{
-		setImage("img/restartbutton.jpg");
+		setImage("img/RESET.png");
 	}
 	
 	@Override
