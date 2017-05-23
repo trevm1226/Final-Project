@@ -5,8 +5,8 @@ public class totalTimeDisp extends Actor{
 
 	public totalTimeDisp(Long tt)
 	{
-		MayflowerImage amount = new MayflowerImage("Time taken: " + tt + " ms", 40, Color.BLACK);
-		setImage(new MayflowerImage("Time taken: " + tt + " ms", 40, Color.BLACK));
+		MayflowerImage amount = new MayflowerImage("Time taken: " + tt, 24, Color.BLACK);
+		setImage(new MayflowerImage("Time taken: " + tt, 24, Color.BLACK));
 	}
 	
 	@Override

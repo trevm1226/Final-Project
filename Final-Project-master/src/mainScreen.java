@@ -173,7 +173,7 @@ public class mainScreen extends World {
 			doctorBeater.running = false;
 			player.moreMoney(doctorBeater.getValue());
 		}
-		if(player.getMoney() >= 1000000.0)
+		if(player.getMoney() >= 10.0)
 		{
 			
 			endTime = System.currentTimeMillis();
